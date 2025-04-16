@@ -13,6 +13,6 @@ $ . .venv/bin/activate
 # Examples
 
 ```
-(.venv) $ python3 clean-icloud.py --config config.yaml download --date 2024-12-31 --output-dir downloads
-(.venv) $ python3 clean-icloud.py --config config.yaml delete --date 2024-12-31
+(.venv) $ python3 clean-icloud.py --config config.yml download --date 2024-12-31 --output-dir downloads
+(.venv) $ python3 clean-icloud.py --config config.yml delete --date 2024-12-31
 ```
