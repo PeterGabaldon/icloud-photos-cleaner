@@ -8,8 +8,8 @@ Two sub-commands are available:
 2. delete: Deletes (after confirmation) all photos whose creation date is on or before the given date.
 
 Usage examples:
-    python script.py --config config.yaml download --date 2022-01-01 --output-dir downloads
-    python script.py --config config.yaml delete --date 2022-01-01
+    python script.py --config config.yml download --date 2022-01-01 --output-dir downloads
+    python script.py --config config.yml delete --date 2022-01-01
 
 Make sure to create a YAML file (default name "config.yaml") with your credentials.
 """
